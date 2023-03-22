@@ -51,3 +51,21 @@ main h1{
 .box.fizzbuzz{
   background-color: mediumspringgreen;
 }
+
+@media screen and (max-width: 1200px) {
+  .box{
+    width: calc((100% / 7) - 20px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .box{
+    width: calc((100% / 5) - 20px);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .box{
+    width: calc((100% / 2) - 20px);
+  }
+}

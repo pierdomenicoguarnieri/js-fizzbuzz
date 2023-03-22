@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif; 
+}
+
+main{
+  background-color: #2C3E50;
+  color: white;
+  text-align: center;
+}
+
+main h1{
+  padding-top: 50px;
+  font-size: 3rem;
+}
+
+.container{
+  width: 75%;
+  aspect-ratio: 1/1;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 70px;
+}
+
+.box{
+  width: calc(100% / 12);
+  aspect-ratio: 1/1;
+  background-color: dodgerblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  margin: 10px;
+}
+
+.box.fizz{
+  background-color: darkviolet;
+}
+
+.box.buzz{
+  background-color: darkorange;
+}
+
+.box.fizzbuzz{
+  background-color: mediumspringgreen;
+}

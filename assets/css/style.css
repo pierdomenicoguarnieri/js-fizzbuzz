@@ -16,7 +16,7 @@ main{
 
 main h1{
   padding-top: 50px;
-  font-size: 3rem;
+  font-size: calc(1rem + 2vw);
 }
 
 .container{

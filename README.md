@@ -47,3 +47,7 @@ Steps del bonus 2:
 2. Tramite l'uso di `append()` stamparlo a schermo
 
 ## References
+
+[Developer Mozilla document.createElement()](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
+
+[Developer Mozilla .append()](https://developer.mozilla.org/en-US/docs/Web/API/Element/append)

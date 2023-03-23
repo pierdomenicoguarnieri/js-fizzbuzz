@@ -1,23 +1,23 @@
 const main = document.querySelector(".container");
 
 for(let i = 1; i <= 100; i++){
-  const span = document.createElement("div");
-  span.classList.add("box")
+  const box = document.createElement("div");
+  box.classList.add("box")
 
   if(!(i % 3) && !(i % 5)){
-    span.classList.add("fizzbuzz");
-    span.innerHTML = "FizzBuzz";
-    main.append(span);
+    box.classList.add("fizzbuzz");
+    box.innerHTML = "FizzBuzz";
+    main.append(box);
   }else if(!(i % 3)){
-    span.classList.add("fizz");
-    span.innerHTML = "Fizz";
-    main.append(span);
+    box.classList.add("fizz");
+    box.innerHTML = "Fizz";
+    main.append(box);
   }else if(!(i % 5)){
-    span.classList.add("buzz");
-    span.innerHTML = "Buzz";
-    main.append(span);
+    box.classList.add("buzz");
+    box.innerHTML = "Buzz";
+    main.append(box);
   }else{
-    span.innerHTML = i;
-    main.append(span);
+    box.innerHTML = i;
+    main.append(box);
   }
 }
